@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Usuário</title>
+
+	<script>
+	function casosdefamilia() {
+
+		alert("Nome: "+document.getElementById("txtnome").value+"\n"+"CPF: "+document.getElementById("txtcpf").value+"\n"+
+			"Telefone: "+document.getElementById("txtfone").value+"\n"+"Matrícula: "+document.getElementById("txtmatri").value);
+	}
+
+</script>
+</head>
+
+<body>
+	<h1>Cadastro de Usuário</h1>
+
+	<form id="formulario" method="post" action="">
+	Nome:		<br><input type="text" id="txtnome" name="txtnome" value=""><br><br>
+	CPF:		<br><input type="text" id="txtcpf" name="txtcpf" value=""><br><br>
+	Telefone:	<br><input type="text" id="txtfone" name="txtfone" value=""><br><br>
+	Matrícula:	<br><input type="text" id="txtmatri" name="txtmatri" value=""><br><br>
+	<button onclick="casosdefamilia();alert('Cadastrado')">Enviar</button>
+
+</form>
+
+</body>
+</html>
